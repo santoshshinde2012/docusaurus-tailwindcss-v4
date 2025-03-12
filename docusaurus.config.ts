@@ -81,12 +81,7 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/santoshshinde2012/docusaurus-tailwindcss-v4',
-          label: 'GitHub',
-          position: 'right',
-        },
+        {to: '/blog', label: 'Blog', position: 'left'}
       ],
     },
     footer: {

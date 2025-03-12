@@ -8,6 +8,12 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 $ yarn
 ```
 
+## Updates
+
+```
+npm run swizzle @docusaurus/theme-classic Header -- --eject  
+```
+
 ### Local Development
 
 ```
