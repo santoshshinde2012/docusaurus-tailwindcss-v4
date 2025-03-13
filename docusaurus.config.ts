@@ -74,7 +74,6 @@ const config: Config = {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
-      hideOnScroll: true,
       items: [
         {
           type: 'docSidebar',
@@ -82,6 +81,7 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
+        {to: '/api-docs', label: 'API', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'}
       ],
     },

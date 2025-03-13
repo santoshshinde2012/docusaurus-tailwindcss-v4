@@ -1,6 +1,14 @@
 @import "tailwindcss";
 @layer theme, base, components, utilities;
 
+@layer base {
+  :root {
+    all: initial;
+    font-family: inherit;
+    box-sizing: border-box;
+  }
+}
+
 :root {
   --ifm-color-primary: #2e8555; /* Green for light mode */
   --ifm-color-primary-dark: #29784c;
@@ -25,5 +33,18 @@
 }
 
 .navbar {
-  display: none !important;
+  height: 82px; /* Desktop default */
+}
+
+@media (max-width: 996px) {
+  /* Docusaurus mobile breakpoint */
+  .navbar {
+    height: 64px; /* Mobile default */
+  }
+}
+
+.navbar__inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
