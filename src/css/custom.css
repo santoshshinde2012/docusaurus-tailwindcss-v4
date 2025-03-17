@@ -19,6 +19,19 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-heading-color: #2e8555; /* Green for light mode */
+  --ifm-heading-color-dark: #2e8555; /* Green for dark mode */
+  --ifm-link-color: #2e8555; /* Green for light mode */
+  --ifm-link-color-dark: #2e8555; /* Green for dark mode */
+  --ifm-link-hover-color: #2e8555; /* Green for light mode */
+  --ifm-link-hover-color-dark: #2e8555; /* Green for dark mode */
+  --ifm-color-emphasis-100: #2e8555; /* Green for light mode */
+  --ifm-color-emphasis-100-dark: #2e8555; /* Green for dark mode */
+  --ifm-color-emphasis-200: #2e8555; /* Green for light mode */
+  --ifm-color-emphasis-200-dark: #2e8555; /* Green for dark mode */
+  --ifm-color-emphasis-300: #2e8555; /* Green for light mode */
+  --ifm-color-emphasis-300-dark: #2e8555; /* Green for dark mode */
+  --ifm-color-emphasis-400: #2e85
 }
 
 [data-theme="dark"] {
@@ -29,7 +42,7 @@
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3); /* Darker background for dark mode */  
 }
 
 .navbar {
